@@ -1,0 +1,130 @@
+.box {
+  width: 250px;
+  height: 405px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+  transition: box-shadow ease 0.5s;
+  margin-top: 130px;
+}
+
+.language {
+  width: 42px;
+  display: block;
+  margin-left: auto;
+}
+
+.box:hover {
+  box-shadow: 15px 15px 15px #797979;
+}
+
+.result {
+  color: #000000;
+  text-align: center;
+}
+
+.explain {
+  color: #000000;
+  text-align: center;
+}
+
+.heading {
+  margin:  0px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.input1 {
+  color: #000000;
+  margin-top: 20px;
+  width: 150px;
+  background-color: #ffffff;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+  outline: none;
+}
+
+.btn2 {
+  width: 50px;
+  background-color:rgb(15, 215, 15);
+  color: #fff;
+  font-size: 15px;
+  padding: 3px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.language {
+  height: 25px;
+  width: 50px;
+  background-color:rgb(15, 215, 15);
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 5px;
+  padding-left: 5px;
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(1.05);
+}
+
+.btn2:active {
+  transform: scale(1.05);
+}
+
+.btn {
+  width: 150px;
+  padding: 10px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  background-color:rgb(15, 215, 15);
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform ease 0.2s;
+}
+
+.input1::placeholder{
+  color: #000000;
+}
+
+.option {
+  color: #fff;
+}
+
+.option1 {
+  color: #fff;
+}
+
+.form2 {
+  display: flex;
+}
+
+.selection {
+  margin-top: 20px;
+  width: 155px;
+  background-color: #ffffff;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+  outline: none;
+}
