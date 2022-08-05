@@ -7,7 +7,8 @@ var elExplain = document.querySelector('.explain');
 var option1 = document.querySelector('.option1');
 var elSelection = document.querySelector('.selection');
 var elButton = document.querySelector('.btn');
-
+var five = 5;
+var three = 3;
 
 elForm2.addEventListener('submit', function (evt) {
   evt.preventDefault();
@@ -41,13 +42,13 @@ elForm.addEventListener('submit', function(event){
     if (elInput.value == 0) {
       elResult.textContent = 'Xechnima kiritilmadi!';
       return;
-    } else if ((elInput.value % 3 == 0) && (elInput.value % 5 == 0)) {
+    } else if ((elInput.value % three == 0) && (elInput.value % five == 0)) {
       elResult.textContent = 'FizzBuzz';
       return;
-    } else if (elInput.value % 3 == 0) {
+    } else if (elInput.value % three == 0) {
       elResult.textContent = 'Fizz';
       return;
-    } else if (elInput.value % 5 == 0) {
+    } else if (elInput.value % five == 0) {
       elResult.textContent = 'Buzz';
       return;
     } else {
@@ -63,17 +64,38 @@ elForm.addEventListener('submit', function(event){
     if (elInput.value == 0) {
       elResult.textContent = 'Ничего не вошло!';
       return;
-    } else if ((elInput.value % 3 == 0) && (elInput.value % 5 == 0)) {
+    } else if ((elInput.value % three == 0) && (elInput.value % five == 0)) {
       elResult.textContent = 'FizzBuzz';
       return;
-    } else if (elInput.value % 3 == 0) {
+    } else if (elInput.value % three == 0) {
       elResult.textContent = 'Fizz';
       return;
-    } else if (elInput.value % 5 == 0) {
+    } else if (elInput.value % five == 0) {
       elResult.textContent = 'Buzz';
       return;
     } else {
       elResult.textContent = 'Введенное вами число не делится ни на 3, ни на 5';
+    }
+  }
+  if (elSelectLanguage.value == 13) {
+    if (isNaN(elInput)) {
+      elResult.textContent = 'Enter number!';
+      return;
+    }
+    if (elInput.value == 0) {
+      elResult.textContent = 'anothing!';
+      return;
+    } else if ((elInput.value % three == 0) && (elInput.value % five == 0)) {
+      elResult.textContent = 'FizzBuzz';
+      return;
+    } else if (elInput.value % three == 0) {
+      elResult.textContent = 'Fizz';
+      return;
+    } else if (elInput.value % five == 0) {
+      elResult.textContent = 'Buzz';
+      return;
+    } else {
+      elResult.textContent = 'error';
     }
   }
 })
