@@ -95,7 +95,7 @@ elForm.addEventListener('submit', function(event){
       elResult.textContent = 'Buzz';
       return;
     } else {
-      elResult.textContent = 'error';
+      elResult.textContent = 'The number you entered is not divisible by 3 or 5';
     }
   }
 })
