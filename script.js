@@ -59,7 +59,6 @@ elForm.addEventListener('submit', function(event){
   if (elSelectLanguage.value == 12) {
     if (isNaN(elInput)) {
       elResult.textContent = 'Введите число!';
-      return;
     }
     if (elInput.value == 0) {
       elResult.textContent = 'Ничего не вошло!';
@@ -80,7 +79,6 @@ elForm.addEventListener('submit', function(event){
   if (elSelectLanguage.value == 13) {
     if (isNaN(elInput)) {
       elResult.textContent = 'Enter number!';
-      return;
     }
     if (elInput.value == 0) {
       elResult.textContent = 'anothing!';
